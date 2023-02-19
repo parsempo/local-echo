@@ -315,7 +315,7 @@ export class LocalEchoAddon extends IoEventTarget implements ITerminalAddon {
    * This function clears all the lines that the current input occupies and
    * then replaces them with the new input.
    */
-  private setInput(newInput: string, clearInput = true) {
+  public setInput(newInput: string, clearInput = true) {
     // Clear current input
     if (clearInput) this.clearInput();
 
