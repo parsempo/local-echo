@@ -1,5 +1,5 @@
 {
-  "name": "@gytx/xterm-local-echo",
+  "name": "@parsempo/local-echo",
   "version": "0.1.7",
   "description": "A local echo controller for xterm.js",
   "type": "module",
@@ -22,7 +22,7 @@
     "lint:prettier": "prettier \"./{src,test}/**/*.ts\" --write",
     "prepublishOnly": "yarn build"
   },
-  "repository": "git+https://github.com/Guyutongxue/local-echo.git",
+  "repository": "git+https://github.com/parsempo/local-echo.git",
   "keywords": [
     "xterm",
     "echo",
